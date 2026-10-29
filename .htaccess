@@ -1,0 +1,6 @@
+# Convenience for XAMPP: lets http://localhost/finance-tracker work by
+# forwarding every request into the Laravel public/ folder.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
