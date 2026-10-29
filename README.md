@@ -2,7 +2,7 @@
 
 A PHP/Laravel and MySQL application for recording income and expenditure, managing category budgets and viewing cash-flow forecasts.
 
-Developed by **Mohamed Kemouche** as a coursework and portfolio project, with a family travel agency as its intended business use case.
+I built this project for my dad's travel agency to help him keep track of transactions from his work bank card.
 
 **Stack:** PHP 8.2-compatible 8.x · Laravel 12 · MySQL · Blade · JavaScript · Chart.js
 
@@ -170,8 +170,12 @@ The publication copy passed PHP syntax checks across all 55 PHP files and 19 for
 - A complete dependency installation, database setup, browser workflow and public deployment have not been verified. The checks above cover syntax and the standalone forecast calculation only.
 - Demonstrations should use fictional transactions rather than actual customer or agency financial records.
 
-## Project context and support
+## Why I built this
 
-The original project documentation identifies the application as **DG1IAD Internet Applications and Databases — Portfolio 3**. Its intended business context is a family travel agency; this does not imply a verified production deployment.
+My dad uses a separate bank card for his travel agency and needed a way to organise the transactions made with it. I built this application using PHP, Laravel and MySQL so he could record transactions manually, assign categories and review income and spending through filters and charts. I also added CSV export so the records could be reviewed outside the app.
 
-When reporting an issue, include your PHP/database versions, reproduction steps and a sanitised error message. Do not attach `.env`, account credentials or real financial records.
+The project also formed part of my DG1IAD Internet Applications and Databases coursework, Portfolio 3.
+
+## Reporting issues
+
+If you find a bug, include your PHP and database versions, the steps to reproduce it and the error message. Remove credentials and real financial information from any examples you share.
